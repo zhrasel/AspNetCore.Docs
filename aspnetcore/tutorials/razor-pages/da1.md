@@ -57,7 +57,7 @@ Use **View Source** from a browser to examine the generated markup. A portion of
 
 ### Add route template
 
-Update the Edit, Details, and Delete Razor Pages to use the `{id:int}` route template. Change the page directive for each of these pages from `@page` to `@page "{id:int}"`. Run the app and then view source.
+Update the Edit, Details, and Delete Razor Pages to use the `{id:int}` route template. Change the page directive for each of these pages from `@page` to `@page "{id:int}"`. Run the app and then check using `view source`.
 
 The generated HTML adds the ID to the path portion of the URL:
 
